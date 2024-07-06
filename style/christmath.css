@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  background-image: url(../image/holiday-christmas-light-4.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+.container {
+  justify-content: space-between;
+  font-family: "Montserrat", sans-serif;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 300px;
+  width: 100%;
+  max-width: 900px;
+  width: 100%;
+  padding: 40px;
+}
+.text {
+  font-size: 3rem;
+  font-weight: 700;
+  color: white;
+}
+
+p {
+  text-transform: uppercase;
+  font-size: 22px;
+  margin: 0;
+}
+.clock {
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+.box-time {
+  font-size: 7rem;
+  font-weight: 800;
+}
+@media (max-width: 960px) {
+  .container {
+    padding: 20px;
+    max-height: 200px;
+  }
+  .box-time {
+    font-size: 4rem;
+  }
+  .text {
+    font-size: 2rem;
+    text-align: center;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 600px) {
+  .box-time {
+    font-size: 3rem;
+  }
+  .text {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 14px;
+  }
+}
