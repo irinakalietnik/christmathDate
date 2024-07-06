@@ -1,6 +1,6 @@
 function daysToChristmath() {
   let now = new Date();
-  let thisYearChristmath = new Date(now.getFullYear(), "11", "31");
+  let thisYearChristmath = new Date(now.getFullYear(), "11", "31", "23", "59");
 
   let days = (thisYearChristmath - now) / (24 * 60 * 60 * 1000);
   let hours = ((thisYearChristmath - now) / (60 * 60 * 1000)) % 24;
