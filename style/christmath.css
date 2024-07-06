@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 body {
-  padding-top: 190px;
+  padding-top: 160px;
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
-  max-height: 380px;
+  max-height: 360px;
   width: 100%;
   max-width: 900px;
   width: 100%;
@@ -45,7 +45,7 @@ p {
   width: 100%;
 }
 .box-time {
-  font-size: 7rem;
+  font-size: 5rem;
   font-weight: 800;
 }
 @media (max-width: 960px) {
